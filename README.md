@@ -17,15 +17,15 @@ This project is a **front-end YouTube layout clone** built using **HTML and CSS*
 ## 📁 Project Structure
 SimpleYoutubeLayout/
 
-├── index.html          # Main HTML structure
+* index.html          # Main HTML structure
 
-├── styles.css          # Grid layout & video styling
+* styles.css          # Grid layout & video styling
 
-├── header.css          # Top navigation bar styles
+* header.css          # Top navigation bar styles
 
-├── sidebar.css         # Sidebar navigation styles
+* sidebar.css         # Sidebar navigation styles
 
-└── icons/              # All icon images used (menu, bell, mic, etc.)
+* icons/              # All icon images used (menu, bell, mic, etc.)
 
 
 ---
