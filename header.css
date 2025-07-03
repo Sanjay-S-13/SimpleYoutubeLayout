@@ -1,20 +1,20 @@
-.header{
-display: flex; 
-flex-direction: row;
-justify-content: space-between;
-height: 65px;
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-background-color: white;
-border-bottom: 1px;
-border-bottom: solid;
-border-color: rgb(236, 236, 236);
-z-index: 100;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(236, 236, 236);
+    z-index: 100;
+    padding: 0 16px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
 }
 .start{
-    width: 200px;
+    gap: 20px;
     display: flex;
     align-items: center;
 }
@@ -32,11 +32,12 @@ z-index: 100;
 
 .middle{
     flex: 1;
-    margin-left: 70px;
-    margin-right: 35px;
     max-width: 500px;
     display: flex;
     align-items: center;
+    gap: 8px;
+    max-width: 600px;
+    margin: 0 20px;
 }
 .searchimage{
     height: 20px;
@@ -127,4 +128,46 @@ z-index: 100;
     padding-bottom: 2px;
     border-radius: 100%;
     font-size: 12px;
+}
+.menuicon,
+.youtubeicon,
+.videocamicon,
+.nineboxicon,
+.bellicon,
+.searchimage,
+.micimage {
+    transition: transform 0.2s;
+}
+
+.menuicon:hover,
+.youtubeicon:hover,
+.videocambutton:hover,
+.nineboxbutton:hover,
+.bellbutton:hover,
+.searchicon:hover,
+.micicon:hover {
+    transform: scale(1.05);
+    background-color: #f2f2f2;
+}
+
+.searchicon,
+.micicon,
+.videocambutton,
+.nineboxbutton,
+.bellbutton {
+    border-radius: 50%;
+    transition: background-color 0.2s;
+}
+
+.searchbar::placeholder {
+    color: #888;
+}
+
+.profile {
+    transition: border-color 0.2s;
+    border: 2px solid transparent;
+}
+
+.profile:hover {
+    border-color: #888;
 }
