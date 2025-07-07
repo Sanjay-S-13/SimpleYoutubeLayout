@@ -1,4 +1,3 @@
- HEAD
 # SimpleYoutubeLayout
 A Simple Youtube Layout created with HTML/CSS - Techniques are Nested Layout , CSS grid , Flexbox
 
@@ -73,7 +72,5 @@ Sanjay S – GitHub
 ---
 
 Let me know if you'd like:
-- A dark mode version
 - To add live hosting instructions (via GitHub Pages)
 - Or convert this to a React or Tailwind project!
-
