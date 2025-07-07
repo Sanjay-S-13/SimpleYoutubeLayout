@@ -40,6 +40,18 @@ body{
     }
 }
 
+.single-video-container {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.single-video-container:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+    background-color: #ffffff;
+}
+
+
 .below-thumbnail-grid{
     display:grid;
     grid-template-columns: 45px 1fr;
@@ -100,3 +112,4 @@ body{
 .thumbnail-pic img:hover {
     transform: scale(1.03);
 }
+
